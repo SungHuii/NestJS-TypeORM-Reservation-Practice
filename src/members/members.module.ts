@@ -5,8 +5,8 @@ import { MembersService } from './members.service';
 import { Member } from './members.entity';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([Member])],
-  controllers: [MembersController],
-  providers: [MembersService],
+	imports: [TypeOrmModule.forFeature([Member])],
+	controllers: [MembersController],
+	providers: [MembersService],
 })
 export class MembersModule {}

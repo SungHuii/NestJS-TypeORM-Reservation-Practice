@@ -5,8 +5,8 @@ import { Member } from './members.entity';
 
 @Injectable()
 export class MembersService {
-  constructor(
-    @InjectRepository(Member)
-    private memberRepository: Repository<Member>,
-    ) {}
+	constructor(
+		@InjectRepository(Member)
+		private memberRepository: Repository<Member>,
+	) {}
 }
